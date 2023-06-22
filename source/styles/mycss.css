@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+
+body{
+    font-family: Michroma, serif;
+    background: linear-gradient(92deg, #001AB3 0%, #5b0000 97%, #2D2D2D 100%, #2D2D2D 100%, #2D2D2D 100%);
+}
+p{
+    color: aquamarine;
+}
+
+
+.nav-link{
+    color: aquamarine;
+}
+.navbar-nav .nav-link.active {
+    color: rgb(144, 144, 144);
+}
+.navbar-brand img{
+    width: 45px ;
+}
+.navbar-toggler{
+    background-color: rgb(144, 144, 144);   
+}
+.sidebar{
+    color: aquamarine;
+    background: linear-gradient(200deg, #001AB3 0%, #5b0000 97%, #2D2D2D 100%, #2D2D2D 100%, #2D2D2D 100%);
+
+}
+
+.card{
+    color: aquamarine;
+    background: linear-gradient(200deg, #001AB3 0%, #5b0000 97%, #2D2D2D 100%, #2D2D2D 100%, #2D2D2D 100%);
+
+}
+
+.slide-text,
+.footer-txt{
+    color: aquamarine;
+    margin: auto auto;
+}
+footer,
+.btn-outline-primary,
+.btn-outline-danger{
+    background: linear-gradient(200deg, #001AB3 0%, #5b0000 97%, #2D2D2D 100%, #2D2D2D 100%, #2D2D2D 100%);
+}
+/* .carousel>.col-lg-12>.btn-outline-danger>h5{
+    text-decoration-style: none;
+    text-decoration: none;
+} */
+.call-anim{
+    animation: call 2s ease 0s infinite reverse forwards;
+}
+
+@keyframes call {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+
+	30% {
+		transform: scale3d(1.25, 0.75, 1);
+	}
+
+	40% {
+		transform: scale3d(0.75, 1.25, 1);
+	}
+
+	50% {
+		transform: scale3d(1.15, 0.85, 1);
+	}
+
+	65% {
+		transform: scale3d(0.95, 1.05, 1);
+	}
+
+	75% {
+		transform: scale3d(1.05, 0.95, 1);
+	}
+
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
+@media (max-width: 755px){
+    .carousel-indicators{
+        display: none;
+    }
+}
+.media-lnk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
